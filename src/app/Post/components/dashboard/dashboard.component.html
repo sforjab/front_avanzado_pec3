@@ -1,0 +1,21 @@
+<!-- <div *ngIf="posts">
+  <p>Num likes: {{ numLikes }}</p>
+  <p>Num dislikes: {{ numDislikes }}</p>
+</div>
+ -->
+<!-- 
+<div *ngIf="posts">
+  <div style="display: block;">
+    <canvas baseChart [datasets]="[{ data: [numLikes, numDislikes], label: 'Likes vs Dislikes' }]"
+            [labels]="barChartLabels" [options]="barChartOptions" [legend]="barChartLegend"
+            [chartType]="barChartType"></canvas>
+  </div>
+</div> -->
+
+<!-- <div id="divChart">
+  <canvas id="myChart"></canvas>
+</div> -->
+
+<div>
+  <canvasjs-chart [options]="chartOptions" [styles]="{width: '100%', height:'360px'}"></canvasjs-chart>    
+</div>   

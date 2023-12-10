@@ -1,0 +1,24 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.icon-blue {
+    color: #0864d4;
+}
+
+.icon-red {
+    color: #c61d2b;
+}
