@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  
+  .container > mat-card {
+    width: 400px;
+    margin: 1rem;
+  }
+  
+  .avatar-image {
+    background-image: url('../../../../assets/images/avatar.png');
+    background-size: cover;
+  }
+  
+  .header-text {
+    width: 100%;
+    text-align: center;
+  }
+  
+  mat-card-subtitle {
+    margin: 1rem 0;
+  }
+  
+  .badge {
+    color: black;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 10px;
+    padding: 5px 10px;
+  }
+  
+  mat-card-content, .card-footer {
+    padding: 2px 16px;
+  }
+  
+  .card-footer {
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+  }
+  
+  mat-card-actions {
+    justify-content: space-around;
+  }
+  
+  button {
+    margin: 0 1rem;
+  }
+  

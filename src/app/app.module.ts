@@ -19,9 +19,14 @@ import { UserModule } from './User/user.module';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { CardComponent } from './Shared/Components/card/card.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatCardModule } from '@angular/material/card';
+
+import { FormatDatePipe } from '../app/Shared/Pipes/format-date.pipe';
+
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, CardComponent],
+  declarations: [AppComponent, HeaderComponent, CardComponent, FormatDatePipe],
 
   imports: [
     BrowserModule,
@@ -44,7 +49,9 @@ import { CardComponent } from './Shared/Components/card/card.component';
       logOnly: environment.production,
     }),
     MatToolbarModule,
-    MatButtonModule
+    MatButtonModule,
+    BrowserAnimationsModule,
+    MatCardModule
   ],
   providers: [
     {

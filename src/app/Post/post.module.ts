@@ -1,8 +1,8 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
-import { FormatDatePipe } from '../Shared/Pipes/format-date.pipe';
-import { HomeComponent } from './components/home/home.component';
+/* import { FormatDatePipe } from '../Shared/Pipes/format-date.pipe';
+ */import { HomeComponent } from './components/home/home.component';
 import { PostFormComponent } from './components/post-form/post-form.component';
 import { PostsListComponent } from './components/posts-list/posts-list.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
@@ -14,8 +14,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSelectModule } from '@angular/material/select';
 import { MatTableModule } from '@angular/material/table';
 import { MatIconModule } from '@angular/material/icon';
-import { MatCardModule } from '@angular/material/card';
-
+/* import { MatCardModule } from '@angular/material/card';
+ */
 import { CanvasJSAngularChartsModule } from '@canvasjs/angular-charts';
 
 /* import { MatDatepickerModule } from '@angular/material/datepicker';
@@ -26,7 +26,7 @@ import { MatNativeDateModule } from '@angular/material/core'; */
     PostsListComponent,
     PostFormComponent,
     HomeComponent,
-    FormatDatePipe,
+    /* FormatDatePipe, */
     DashboardComponent
   ],
   imports: [
@@ -39,7 +39,7 @@ import { MatNativeDateModule } from '@angular/material/core'; */
     MatSelectModule,
     MatTableModule,
     MatIconModule,
-    MatCardModule,
+    /* MatCardModule, */
     CanvasJSAngularChartsModule
 /*     MatDatepickerModule,
     MatNativeDateModule */

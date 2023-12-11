@@ -30,10 +30,10 @@
       </div>
       <mat-card-actions>
         <div class="card-buttons" *ngIf="showButtons">
-          <button mat-raised-button color="primary" (click)="like(item.postId)">
+          <button mat-raised-button color="primary" (click)="onLikeClick()">
             Like
           </button>
-          <button mat-raised-button color="warn" (click)="dislike(item.postId)">
+          <button mat-raised-button color="warn" (click)="onDislikeClick()">
             Dislike
           </button>
         </div>
